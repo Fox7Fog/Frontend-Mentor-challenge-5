@@ -59,7 +59,7 @@ header {
     grid-area: header;
     padding: 3rem 5rem;
     width: 100%;
-    height: 42rem;
+    height: fit-content; /*42rem*/
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -173,7 +173,7 @@ main {
 .your-users {
     width: 100% /*72rem*/;
     height: 28rem;
-    padding: 1rem 1rem 1rem 5rem;
+    padding: 2rem 2rem 2rem 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -205,13 +205,15 @@ main {
 .flowing-conversations-img,
 .your-users-img
  {
-    width: 45% /*31rem*/;
+    width: auto; 
+    height: 24rem;
 }
 
 .grow-together-img img,
 .flowing-conversations-img img,
 .your-users-img img {
-    width: 100%;
+    width: auto;
+    height: 24rem
 }
 
 
@@ -502,12 +504,14 @@ footer {
     .your-users-img
     {
         width: 80% /*31rem*/;
+        height: auto;
     }
 
     .grow-together-img img,
     .flowing-conversations-img img,
     .your-users-img img {
-        width: 100%;
+        width: 80%;
+        height: auto;
     }
 
     /* footer */
@@ -675,6 +679,21 @@ footer {
         letter-spacing: normal;
         line-height: 1.5;
         font-size: 0.8rem;
+    }
+
+    .grow-together-img,
+    .flowing-conversations-img,
+    .your-users-img
+    {
+        width: 90% /*31rem*/;
+        height: auto;
+    }
+
+    .grow-together-img img,
+    .flowing-conversations-img img,
+    .your-users-img img {
+        width: 90%;
+        height: auto;
     }
 
     /* out-of-the-flow section */
