@@ -201,19 +201,23 @@ main {
     line-height: 1.5;
 }
 
+.grow-together-text p {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+}
+
 .grow-together-img,
 .flowing-conversations-img,
 .your-users-img
  {
     width: auto; 
-    height: 24rem;
+    height: clamp(70%, 24rem, 80%); /*clamp(70%, 24rem, 80%)*/ /*min(24rem, 90%)*/
 }
 
 .grow-together-img img,
 .flowing-conversations-img img,
 .your-users-img img {
     width: auto;
-    height: 24rem
+    height: clamp(70%, 24rem, 80%);
 }
 
 
