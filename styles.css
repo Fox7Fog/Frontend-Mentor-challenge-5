@@ -510,8 +510,8 @@ footer {
     .grow-together-img img,
     .flowing-conversations-img img,
     .your-users-img img {
-        width: 80%;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     /* footer */
@@ -692,8 +692,8 @@ footer {
     .grow-together-img img,
     .flowing-conversations-img img,
     .your-users-img img {
-        width: 90%;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     /* out-of-the-flow section */
