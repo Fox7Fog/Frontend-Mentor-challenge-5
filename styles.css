@@ -201,8 +201,10 @@ main {
     line-height: 1.5;
 }
 
-.grow-together-text p {
-    font-size: clamp(1rem, 2vw, 1.4rem);
+.grow-together-text p,
+.flowing-conversations-text p,
+.your-users-text p {
+    width: min(40ch, calc(100vw-2rem));
 }
 
 .grow-together-img,
