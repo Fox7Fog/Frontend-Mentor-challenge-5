@@ -46,11 +46,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* header */
@@ -86,9 +86,13 @@ header {
     height: 1.7rem;
 }
 
-.header-top button {
+.header-top a {
     width: 11.5rem;
     height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: white;
     color: var(--footer-and-headings);
     font-size: 0.75rem;
@@ -100,7 +104,7 @@ header {
     box-shadow: var(--text-color) 0px 4px 9px -3px, var(--text-color) 0px 0px 0px -10px;
 }
 
-.header-top button:hover {
+.header-top a:hover {
     color: var(--text-color);
     cursor: pointer;
 }
@@ -129,9 +133,13 @@ header {
     font-size: 1.25rem;
 }
 
-.info button {
+.info a {
     width: 15rem;
     height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: var(--button-background-and-accents);
     color: var(--header-background);
     font-size: 0.75rem;
@@ -141,7 +149,7 @@ header {
     border-color: var(--button-background-and-accents);
 }
 
-.info button:hover {
+.info a:hover {
     background-color: hsl(322, 100%, 80%);
     border-color:hsl(322, 100%, 80%);
     cursor: pointer;
@@ -263,9 +271,13 @@ main {
     
 }
 
-.ready-to-build-your-community button {
+.ready-to-build-your-community a {
     width: 24.5rem;
     height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: var(--button-background-and-accents);
     color: var(--header-background);
     font-size: 1.25rem;
@@ -276,7 +288,7 @@ main {
 
 }
 
-.ready-to-build-your-community button:hover {
+.ready-to-build-your-community a:hover {
     background-color: hsl(322, 100%, 80%);
     border-color:hsl(322, 100%, 80%);
     cursor: pointer;
@@ -330,6 +342,10 @@ footer {
     flex-wrap: nowrap;
     gap: 1rem;
     align-items: center;
+}
+
+.contact-information div a {
+    text-decoration: none;
 }
 
 .contact-information div p {
@@ -415,7 +431,7 @@ footer {
         background-size: cover;
     }
 
-    .header-top button {
+    .header-top a {
         width: 10rem;
         height: 2.7rem;
         font-size: 1rem;
@@ -444,7 +460,7 @@ footer {
         color: var(--footer-and-headings);
     }
     
-    .info button {
+    .info a {
         width: 70%;
         height: 4.5rem;
         background-color: var(--button-background-and-accents);
@@ -620,7 +636,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    .ready-to-build-your-community button {
+    .ready-to-build-your-community a {
         width: 65%;
         height: 4.5rem;
         font-size: 1rem;
@@ -650,7 +666,7 @@ footer {
         height: 0.9rem; 
     }
 
-    .header-top button {
+    .header-top a {
         width: 6rem;
         height: 1.5rem;
         font-size: 0.6rem;
@@ -665,7 +681,7 @@ footer {
         word-spacing: 0.5px;
     }
 
-    .info button {
+    .info a {
         width: 14rem;
         height: 2.15rem;
         font-size: 0.8rem;
@@ -723,7 +739,7 @@ footer {
         font-size: 1rem;
     }
     
-    .ready-to-build-your-community button {
+    .ready-to-build-your-community a {
         width: 14rem;
         height: 2.15rem;
         font-size: 0.7rem;
